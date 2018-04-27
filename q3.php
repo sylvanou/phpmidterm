@@ -17,7 +17,7 @@ class User {
   }
 
   public function __destruct() {
-    echo $this->getName();
+    echo 'Hello ' . $this->getName();
   }
 }
 
